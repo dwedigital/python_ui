@@ -13,5 +13,5 @@ This function just gets a user choice from a list of possible values. This funct
 
 ## progressBar()
 
-This takes the named parameter `length` to the set the max value for the progress bar. This value is used to work out the progress in relation to the current interation.
+This takes the named parameter `length` to set the max value for the progress bar. This value is used to work out the progress in relation to the current interation.
 
