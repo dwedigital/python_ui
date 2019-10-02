@@ -7,7 +7,6 @@ verify_ssl = true
 
 [packages]
 bullet = "*"
-progress-bar = "*"
 progress = "*"
 
 [requires]
