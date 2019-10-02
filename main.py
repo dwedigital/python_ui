@@ -1,5 +1,5 @@
 from bullet import Bullet, colors
-from progress.bar import Bar
+from progress.bar import Bar, ShadyBar, ChargingBar
 from time import sleep
 
 
@@ -36,7 +36,7 @@ def progressBar(length):
     Suffix -  String: See documentation on the possible dynamic values
 
     """
-    with Bar(
+    with ChargingBar(
         "Processing", 
         max=length,
         suffix='%(index)d/%(max)d - Time Remaining: %(eta)ds'
